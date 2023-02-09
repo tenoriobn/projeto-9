@@ -1,0 +1,12 @@
+:root {
+    /* Cores */
+    --azul: #115ED1;
+    --azul-escuro: #0C0222;
+    --branco: #ffffff;
+    --branco-50: #ffffff;
+    --preto: #000000;
+    --rosa: #E714D2;
+
+    /* Fonte */
+    --space: 'Hanken Grotesk', sans-serif;
+}
