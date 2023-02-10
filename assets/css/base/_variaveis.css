@@ -1,12 +1,10 @@
 :root {
     /* Cores */
-    --azul: #115ED1;
-    --azul-escuro: #0C0222;
     --branco: #ffffff;
-    --branco-50: #ffffff;
+    --cinza: #2B2E34;
     --preto: #000000;
-    --rosa: #E714D2;
+    --lilas-clarinho: #AFC0E2;
 
     /* Fonte */
-    --space: 'Hanken Grotesk', sans-serif;
+    --nunito: 'Nunito', sans-serif;
 }

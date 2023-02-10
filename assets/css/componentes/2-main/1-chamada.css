@@ -1,0 +1,34 @@
+.chamada {
+    margin-top: 6.875rem;
+}
+
+.chamada__subtitulo {
+    font-size: 2.1875rem;
+    font-weight: 700;
+    line-height: 3rem;
+
+    max-width: 21.9375rem;
+}
+
+.chamada__paragrafo {
+    color: var(--lilas-clarinho);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+
+    max-width: 21.9375rem;
+}
+
+@media screen and (min-width: 992px) {
+    .chamada__subtitulo {
+        font-size: 2.625rem;
+        line-height: 3.5625rem;
+        max-width: 100%;
+    }
+    
+    .chamada__paragrafo {
+        font-size: 1.25rem;
+        line-height: 1.6875rem;
+        max-width: 100%;
+    }
+}

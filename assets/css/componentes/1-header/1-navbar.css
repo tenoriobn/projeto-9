@@ -1,30 +1,18 @@
-.navbar--brand {
-    letter-spacing: .125rem;
+.cabecalho {
+    padding: 1rem 0;
 }
 
-.cabecalho, .offcanvas--header {
-    background: rgba(255, 255, 255, 0.15);
-    -webkit-backdrop-filter: blur(3.9688rem);
+.navbar-toggler--icon {
+    background-image: url(../../../img/icon/menu\ hamburguer.svg);
 }
 
 .offcanvas--mod {
-    background: var(--azul-escuro);
+    background: var(--cinza);
+    transition: 1s;
 }
 
-.icon__navbar  {
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    cursor: pointer;
-
-    height: 3.75rem;
-    width: 3.75rem;
-}
-
-.botao__carrinho {
-    background-image: url(../../../img/icon/carrinho.svg);
-}
-
-.botao__perfil {
-    background-image: url(../../../img/icon/Avatar.svg);
+.nav--link {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5625rem;
 }
