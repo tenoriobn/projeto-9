@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/base/base.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>SomeCompany</title>
 </head>
 
@@ -22,7 +23,7 @@
                 <div class="border-0 offcanvas offcanvas--mod offcanvas-end w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header offcanvas--header">
                         <img src="assets/img/logo/Logo.svg" alt="Logotipo" class="me-0 navbar-brand navbar--brand">
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <button type="button" class="btn-close btn--close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
 
                     <div class="offcanvas-body d-flex flex-column flex-lg-row justify-content-center">
@@ -42,10 +43,41 @@
 
     <main class="container conteudo">
         <section class="align-items-center chamada d-flex flex-column">
-            <h2 class="chamada__subtitulo text-center">Scaffolding a New Company</h2>
+            <h2 class="chamada__subtitulo mb-3 text-center">Scaffolding a New Company</h2>
             <p class="chamada__paragrafo text-center">Join us with the lastest blockchain innovations</p>
         </section>
+
+        <section class="info">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col col-12">
+                        <div class="info__card position-relative">
+                            <img src="assets/img/icon/cartao.svg" alt="imagem de um cartão" class="info__card__img position-absolute top-0 start-50 translate-middle">
+                            <p class="info__card__texto m-0">Join us with the lastest blockchain innovations</p>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-6">
+                        <div class="info__card position-relative">
+                            <img src="assets/img/icon/cartao.svg" alt="imagem de um cartão" class="info__card__img position-absolute top-0 start-50 translate-middle">
+                            <p class="info__card__texto m-0">Join us with the lastest blockchain innovations</p>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-md-6">
+                        <div class="info__card position-relative">
+                            <img src="assets/img/icon/cartao.svg" alt="imagem de um cartão" class="info__card__img position-absolute top-0 start-50 translate-middle">
+                            <p class="info__card__texto m-0">Join us with the lastest blockchain innovations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer class="rodape position-relative">
+        <img src="assets/img/banner/Vector 1.svg" alt="fundo" class="img-fluid w-100">
+        <img src="assets/img/banner/javascript_illustration 1.svg" alt="ilustração de js" class="img-fluid position-absolute top-0 start-50 translate-middle rodape__img">
+
+    </footer>
 
     <!-- SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

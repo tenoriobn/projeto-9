@@ -2,6 +2,8 @@
 @import url(_variaveis.css);
 @import url(../componentes/1-header/1-navbar.css);
 @import url(../componentes/2-main/1-chamada.css);
+@import url(../componentes/2-main/2-info.css);
+@import url(../componentes/3-footer/1-rodape.css);
 
 body {
     background: var(--cinza);

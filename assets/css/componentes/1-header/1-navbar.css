@@ -11,6 +11,11 @@
     transition: 1s;
 }
 
+.btn--close {
+    background-image: url(../../../img/icon/iconmonstr-x-mark-lined-240.png);
+    background-size: 100%;
+}
+
 .nav--link {
     font-size: 1.125rem;
     font-weight: 700;
